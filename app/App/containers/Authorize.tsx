@@ -21,7 +21,7 @@ export class Login extends React.Component<MyProps, MyState> {
     this.state = {
             login: '',
             password: '',
-            isLoggedIn: true,
+            isLoggedIn: false,
             isLoading: false,
             error: {
                 login: false,
